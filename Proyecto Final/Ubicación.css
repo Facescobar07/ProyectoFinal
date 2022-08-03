@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contHeader{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.caja1 img{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 32px;
+
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 h1{
+    font-size: 23px;
+}
+
+/*Datos e Iframe*/
+
+.contSection{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.contUbicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.contUbicacion div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.contUbicacion h2{
+    margin: 5px;
+    width: 40%;
+    height: 40px;
+}
+.contUbicacion p{
+    width: 40%;
+    height: 110px;   
+}
+
+/*Contenedor Logos*/
+
+.contLogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.contLogos .contMedios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.contMedios h1{
+    margin: 2px;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.contLogos .contImg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.contImg img{
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+/*Contenedor Footer*/
+
+.contFooter{
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contFooter ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    margin: 5px;
+    list-style: none;
+}
+
+.contFooter ul li{
+    display: block;
+    transition: .2s linear;
+    padding: 5px;   
+}
+
+.contFooter li:hover{
+    transform: scale(1.1);
+}
+
+.contFooter a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: dashed;
+    color: rgb(173, 13, 13);
+    transition: .3s linear;
+}
+
+.contFooter a:hover{
+    color: white;
+    transform: scale(1.1);
+}

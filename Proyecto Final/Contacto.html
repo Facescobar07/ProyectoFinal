@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <section>
+
+    <!-- Logo del Proyecto -->
+
+    <header id="contenedorHeader">
+        <div class="caja1">
+            <img src="https://c0.klipartz.com/pngpicture/965/278/sticker-png-upholstery-carpet-cleaning-furniture-couch-carpet-furniture-mattress.png" alt="">
+        </div>
+        <div class="caja2">
+            <h1>Tapicería F-3</h1>
+        </div>
+    </header>
+
+    <!-- Formulario de Contacto -->
+    <h2>Contacto</h2>
+    <main class="contMain">
+    <form action="guardar.php"method="POST">
+        <fieldset class="contFormulario">
+            <legend>F-3 Tapicería</legend>
+            <div class="contInput">
+                <input type="text"name="Nombre/s"placeholder="Nombres/s" class="input1">
+            </div>
+            <div class="contInput">
+                <input type="text"name="Apellido/s" placeholder="Apellido/s"class="input1">
+            </div>
+            <div class="contInput">
+                <input type="text"name="Correo" placeholder="Correo"class="input1">
+            </div>
+            <div class="checkbox">
+
+              <input type="checkbox" name="Masculino">Masculino
+              <input type="checkbox" name="Femenino">Femenino
+              <input type="checkbox" name="Otros">Otros  
+
+            </div>
+            <div class="textArea">
+                <textarea name="Comentarios"cols="70" rows="20"></textarea>
+            </div>
+            <div class="btn"> 
+                <input type="reset" value="Reestablecer">
+                <input type="submit"value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- Datos de Contacto-->
+
+    <section class="contDatos">
+
+        <div class="telefonos">
+            <h2>Teléfonos</h2>
+        </div>
+        <div class="numeros">
+            <strong>2993320090 - 2604812504</strong>
+        </div>
+        <div class="correo">
+            <h2>Correo</h2>
+        </div>
+        <div class="link">
+            <strong><a href="https://Tapiceroescobar@gmail.com" target="_blank">Tapiceroescobar@gmail.com</a></strong>
+        </div>
+        <div class="horarios">
+            <h2>Horarios de Atención</h2>
+        </div>
+        <div class="dias">
+            <ul>
+                <li>Lunes a Viernes: 9:30hs a 12.30hs
+                    y de 16:30hs a 20:30hs
+                </li>
+                <li>Sábados de 9:30hs a 14hs</li>
+            </ul>
+        </div>
+    </section>
+    </main>
+
+        <!-- Contenedor Footer -->
+        
+    <footer class="contFooter">
+        <ul>
+            <li><a href="Inicio.html">Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="Galería.html">Galería de Trabajos</a></li>
+            <li><a href="Ubicación.html">Ubicación</a></li>
+        </ul>
+    </footer>
+    </section>
+</body>
+</html>

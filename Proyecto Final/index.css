@@ -1,0 +1,213 @@
+*{margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barra de navegación*/
+
+#contenedorBarra {
+    background-color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.ulPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ulPrincipal li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    transition: .3s linear;
+}
+
+.ulPrincipal li:hover{
+    transform: scale(1.1);
+}
+
+.ulPrincipal li a{
+    color:aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: .3s linear;
+    text-decoration: none;
+}
+
+.ulPrincipal li a:hover{
+    color: rgb(14, 87, 87);
+    transform: scale(1.1);
+}
+
+.ulPrincipal li:hover .hijos{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+}
+
+.ulPrincipal li a:hover{
+    color:rgb(185, 29, 1);
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.ulPrincipal li:hover .hijos{
+    display: block;
+}
+
+.ulPrincipal .subMenu .hijos{
+    display: none;
+    background: rgb(66, 27, 27);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.subMenu .hijos li{
+    display: block;
+    overflow: hidden;
+    border-bottom: none;
+}
+
+.subMenu .hijos li a{
+    display: block;
+}
+/*Logo del Proyecto*/
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contenedor1{
+    display: flex;   
+}
+
+.contenedor1 .redondear{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    border-radius: 25px;
+}
+
+/*Título del Logo*/
+
+.contenedor2{
+    background-color: rgb(185, 19, 19);
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/*Descripción de la empresa*/
+
+#contCuerpo{
+    background-color: rgb(228, 220, 220);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contTitulo{
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.contDescripcion{
+    text-align: justify;
+    font-size: 20px;
+}
+.contParrafo{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.letrasParrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/*Imágen Central*/
+
+.imgCentral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.imgCentral img{
+    width: 600px;
+    height: 350px;
+    transition: all .4s;
+}
+
+.imgCentral img:hover{
+    transform:translate(15%);
+}
+
+/*Footer (Redes Sociales)*/
+
+.arregloLetras{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px 0px 10px 10px;
+}
+
+.contFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    text-decoration: none;
+}
+
+.contFooter img{
+    margin: 5px;
+    width: 15%;
+    height: 15%;
+}
+
+.contFooter a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dashed;
+    color: black;
+    font-size: 15px;
+}
+
+.contFooter a:hover{
+    color: white;
+}

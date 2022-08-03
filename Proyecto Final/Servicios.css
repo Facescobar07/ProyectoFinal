@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Logo del Proyecto*/
+
+#contenedorHeader{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.caja1 img{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 32px;
+
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 h1{
+    font-size: 23px;
+}
+
+/*Contenedor principal de Servicios*/
+
+#contenedorServicios{
+    background-color: rgb(209, 204, 201);
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*H1 Servicios*/
+
+.servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*Menú desplegable*/
+
+.desplegable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Div contenedor de Img*/
+
+.divImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Contenedor para Imágenes sobre servicios*/
+
+.personalizadas{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#contenedorCajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+/*Cajas para servicios*/
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(180, 84, 84);
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.caja h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+ol li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 15px;
+    text-align: start;
+    line-height: 1.5;
+}
+
+/*Tabla*/
+
+.tabla{
+    display: flex;
+    width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*Pie de página*/
+
+.contFooter{
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contFooter ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    margin: 5px;
+    list-style: none;
+}
+
+.contFooter ul li{
+    display: block;
+    transition: .2s linear;
+    padding: 5px;   
+}
+
+.contFooter li:hover{
+    transform: scale(1.1);
+}
+
+.contFooter a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: dashed;
+    color: rgb(173, 13, 13);
+    transition: .3s linear;
+}
+
+.contFooter a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
