@@ -1,2 +1,2 @@
-# Proyecto de Tapiceria
+# Proyecto de Tapiceria.
 
