@@ -287,7 +287,9 @@ body{
         padding: 5px 10px;
         text-decoration: none;
     }
-    
+    .subMenu .hijos li{
+        font-size: 13px;
+    }
     #principal{
         align-items: baseline;
         width: 100%;
@@ -347,6 +349,9 @@ body{
         font-size: 10px;
         padding: 4px 5px;
     }
+    .subMenu .hijos li{
+        font-size: 12px;
+    }
     .contenedor1 .redondear{
         width: 40px;
         height: 40px;
@@ -388,6 +393,9 @@ body{
         font-size: 8px;
         padding: 2px 3px;
     }
+    .subMenu .hijos li{
+        font-size: 11px;
+    }
     .contenedor1 .redondear{
         width: 30px;
         height: 30px;
@@ -423,6 +431,9 @@ body{
 /*Pantallas verticales Mobile*/
 
 @media (max-width: 320px) {
+    .subMenu .hijos li{
+        font-size: 10px;
+    }
     .contTitulo{
         font-size: 16px;
         margin-bottom: 3px;
