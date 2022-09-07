@@ -61,14 +61,6 @@
     margin-top: 10px;
 }
 
-/*Menú desplegable*/
-
-.desplegable{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*Div contenedor de Img*/
 
 .divImagenes{
